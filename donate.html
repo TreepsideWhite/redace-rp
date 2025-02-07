@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css@v=1704578731.css">
+    <link rel="shortcut icon" href="img/hs.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Магазин | HEVING STUDIO</title>
+</head>
+<body style="height: 100vh;">
+    <div class="header">
+        <div class="header__content">
+            <a class="logo--header" href="/">
+                <img src="img/hs.png">
+            </a>
+            <div class="nav">
+                <ul>
+                    <li><a class="nav-link" href="/">Главная</a></li>
+                    <li><a class="nav-link" href="https://vk.com/heving.studio">Форум</a></li>
+                    <li><a class="nav-link" href="howtostart">Начать играть</a></li>
+                    <li><a class="nav-link active" href="donate">Магазин</a></li>
+                    <li><a class="nav-link" href="forbes">FORBES</a></li>
+                </ul>
+            </div>
+            <a class="btn--header" href="profile/auth">Личный кабинет</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="wrapper__content">
+            <div class="person-index">
+                <img src="img/people.svg">
+            </div>
+            <form action = "Ссылка на вашу систему пополнения by Cherry" method = "GET">
+                <div class="donate-block">
+                    <h1>Пополнение<br><span>Счёта</span></h1>
+                    <div class="form">
+                        <div class="servers">
+                            <div class="server server-active" id="server-one">
+                                <img src="img/server.svg">
+                                <a>SERVER №1</a>
+                            </div>
+                        </div>
+                        <div class="inp">
+                            <img src="img/username.svg">
+                            <input type="text" id="username" name = "username" placeholder="Укажите никнейм" autocomplete="off">
+                        </div>
+                        <div class="inp">
+                            <img src="img/rub.svg">
+                            <input type="text" id="sum" name = "sum" placeholder="Введите сумму" maxlength="10" autocomplete="off">
+                        </div>
+                        <div class="inp">
+                            <img src="img/email.svg">
+                            <input type="text" id="email" name = "email" placeholder="Укажите эл. адрес" autocomplete="off">
+                        </div>
+                        <a class="btn" id="donate">Пополнить</a>
+                    </div>
+                </div>
+            </form>
+            <div class="footer">
+                <div class="copyright">
+                    <a>HEVING<span> STUDIO</span></a>
+                    <p>HEVING STUDIO © 2023 - 2024</p>
+                </div>
+                <img src="img/razd.svg">
+                <div class="nav">
+                    <ul>
+                    <li><a href="terms">Пользовательское соглашение</a></li>
+                        <li><a href="policy">Политика конфиденциальности</a></li>
+                        <li><a href="https://vk.com/heving.studio">Поддержка</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    <div class="select-payment" id="modal-box">
+        <div class="modal-box">
+            <div class="header__box">
+                <div class="name">
+                    <h3>SMOUK<span id="server-numb">BONUS</span></h3>
+                    <p>Пополнение счёта</p>
+                </div>
+                <img id="exit-modal" src="img/exit.svg">
+            </div>
+            <div class="info-payment">
+                <div class="stroke">
+                    <a>Ник</a>
+                    <p id="nickname">Maksimov</p>
+                </div>
+                <div class="stroke">
+                    <a>Сумма</a>
+                    <div>
+                        <p id="summa">500</p>
+                        <span>₽</span>
+                    </div>
+                </div>
+                <div class="stroke">
+                    <a>E-mail</a>
+                    <p id="mail">smoukbonus@gmail.com</p>
+                </div>
+            </div>
+            <div class="type-payment">
+                <div id="card" class="type bank-card">
+                    <img src="img/bank-card.svg">
+                </div>
+                <div id="qiwi" class="type qiwi">
+                    <img src="img/qiwi.svg">  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/donate.js"></script>
+</body>
+</html>
